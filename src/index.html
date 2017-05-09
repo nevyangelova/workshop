@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movies</title>
+    <meta charset="utf-8" />
+    <style>
+     #movies {
+       border: 2px dashed;
+       width: 250px;
+       text-indent: 10px;
+       position: fixed;
+       top: calc(50% - 115px);
+       left: calc(50% - 127px);
+     }
+
+     h3 {
+       border-bottom: 2px dashed;
+       margin: 0;
+       padding: 10px 0;
+     }
+
+     #favorites-header {
+       margin-bottom: 10px;
+     }
+
+     #other-header {
+       margin: 10px 0;
+       border-top: 2px dashed;
+     }
+
+     div.movie {
+       cursor: pointer;
+     }
+
+     div.movie:hover {
+       background: #ddd;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <script src="js/index.js"></script>
+</html>
